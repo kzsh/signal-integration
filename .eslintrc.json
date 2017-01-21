@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "strict": [2, "global"],
+    "comma-dangle": 0
+  }
+}

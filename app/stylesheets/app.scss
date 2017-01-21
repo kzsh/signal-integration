@@ -1,0 +1,17 @@
+html, body, #container, #controls {
+  height:100%;
+}
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#controls {
+  position: absolute;
+  top:0;
+  right:0;
+  width:40%;
+}
+#controls input {
+ float: right;
+}
