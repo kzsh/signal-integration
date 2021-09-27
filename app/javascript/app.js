@@ -1,4 +1,5 @@
-require("../stylesheets/app.scss");
+import "../html/index.html"
+import "../stylesheets/app.css"
 
 var ENERGY_HIGH = 100;
 var ENERGY_LOW = 0;
@@ -146,4 +147,4 @@ function setupLoop(canvas) {
   return gameLoop;
 };
 
-window.onload = setup;
+document.addEventListener('DOMContentLoaded', setup)
